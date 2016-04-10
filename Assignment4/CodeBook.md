@@ -12,13 +12,13 @@
 2. We then include only those feature name that has std() or mean() in it and store it in RegCol.
 
 ## Transforming X to only include std() and mean() feature ##
-1. Based on Regcol we only extract those feature that have mean and std in it and transform X only to include colums that have std() and mean()
+1. Based on Regcol we only extract those feature that have mean and std in it and transform X only to include colums that have std() and mean().
 
-## Tansforming SYMerge ## 
+## Tansforming YMerge ## 
 1. Converting YMerge number data to Actual Activity Value using activity.txt file. 
 
 ## Making FinalMerge Data ##
-1.Doing cbind of XMerge, YMerge and SubjectMerge
+1.Doing cbind of XMerge, YMerge and SubjectMerge.
 
 ## Creating tidydataset for mean of each variable for each activity for each subject ##
 1. Doing GroupBy on subject and activity. 
