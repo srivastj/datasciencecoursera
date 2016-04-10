@@ -25,3 +25,23 @@
 2. And then taking mean of each observation using summarise_each
 3. Writing the Data to tinydataset.txt
 
+## Reading from tiddydataset.txt ##
+1. Use read.table("tidydataset.txt", header = TRUE) to read tidydataset
+
+## contents of tidydataset ##
+1. "subject" 
+2. "activity" 
+3. "tBodyAcc-mean()-X" 
+4. "tBodyAcc-mean()-Y" 
+5. "tBodyAcc-mean()-Z" 
+6. "tBodyAcc-std()-X" 
+7. "tBodyAcc-std()-Y" 
+8. "tBodyAcc-std()-Z" 
+9. "tGravityAcc-mean()-X" 
+10. "tGravityAcc-mean()-Y" 
+11. "tGravityAcc-mean()-Z" 
+......
+.....
+66. "fBodyBodyGyroMag-std()" 
+67. "fBodyBodyGyroJerkMag-mean()" 
+68. "fBodyBodyGyroJerkMag-std()"
