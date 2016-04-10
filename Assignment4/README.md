@@ -1,9 +1,9 @@
 #Assignment 4, Analysing the Data collected from the accelerometers from the Samsung Galaxy S smartphone. #
 
 #Assignment has only one script run_analysis.R #
-It assumes following.
-1. Data Set is kept unzipped parallel to it.
-2. Your R working directory is set to present directory. 
+1.It assumes following.
+  1. Data Set is kept unzipped parallel to it.
+  2. Your R working directory is set to present directory. 
 
 #Running run_analysis.R #
 1. setwd("present directory")
