@@ -11,7 +11,7 @@
 
 ### Output ###
 1. tidydataset.txt : It has average of each variables for each subject for each Activity. 
-2. Use read.table("tidydataset.txt",header=TRUE)
+2. Use read.table("tidydataset.txt",header=TRUE) to read tidydataset.txt
 3. It has 180 rows and 68 columns. 
 4. First two columns are subject and activity, rest all of them are sensor related data of (mean and std), for each subject and activity.
 
